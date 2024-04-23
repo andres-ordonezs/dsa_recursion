@@ -36,10 +36,10 @@ export {binarySearch};
 /*
 [1,2,3,4], 4
 
-binarySearch([1,2,3,4], 3,left=0, right=4)
+binarySearch([1,2,3,4], 4 ,left=0, right=4)
 -> midPoint = Math.floor(0+4 / 2) = 2 =idx
 -> arr[idx=2] < 4
--> left: arr[idx=2 + 1]
+-> binarySearch([1,2,3,4], 4 ,left=3, right=4)
 binarySearch()
 
 base case: if(left>right){
